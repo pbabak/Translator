@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <!-- tab navigation menu -->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="dictionary">Dictionary</string>
+    <!-- home screen -->
+    <string name="language_input">Input Language</string>
+    <string name="language_output">Output Language</string>
+    <string name="translate">Translate</string>
+    <string name="show">Show</string>
+    <string name="add_to_dictionary">Add to dictionary</string>
+    <string name="translation_hint">Text for translation...</string>
+    <!-- arrays -->
+    <string-array name="languages">
+        <item>Czech</item>
+        <item>English</item>
+        <item>Deutch</item>
+        <item>French</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string-array name="languages_abbr">
+        <item>cs</item>
+        <item>en</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>sk</item>
+    </string-array>
+</resources>

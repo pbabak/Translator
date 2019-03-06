@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.utb.fai.translator.MainActivity">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tableLayout">
+        <!-- PAGE HOME -->
+        <include layout="@layout/page_home" android:id="@+id/page_home"/>
+        <!-- PAGE HISTORY -->
+        <include layout="@layout/page_history" android:id="@+id/page_history"/>
+        <!-- PAGE CONTACT -->
+        <include layout="@layout/page_dictionary" android:id="@+id/page_dictionary"/>
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
